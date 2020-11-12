@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Car_Registration_Emerson_James_Fallah.jnlp">
+  <information>
+    <title>Car_Registration_Emerson_James_Fallah</title>
+    <vendor>nOip</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Car_Registration_Emerson_James_Fallah.jar" size="30166" download="eager" />
+    <jar href="lib\hamcrest-core-1.3.jar" size="45024" download="eager" />
+    <jar href="lib\junit-4.12.jar" size="314932" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Car_Registration_Emerson_James_Fallah" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Main"  name="Car_Registration_Emerson_James_Fallah" />
+  <update check="always"/>
+</jnlp>
